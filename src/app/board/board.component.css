@@ -1,0 +1,27 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.board h2,h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    align-items: center;
+}
+
+.board div{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: beige;
+    font-size: 48px;
+    cursor: pointer;
+}
+button{
+    font-size: 18px;
+    padding: 10px 20px;
+}
